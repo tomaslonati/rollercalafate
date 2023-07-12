@@ -66,14 +66,12 @@ font-size: 22px;
     display: none;
     color: white;}
 .carrusel{
-   
-    height: 300px;
+    height: 80vh;
     overflow: hidden;
-   
     border: rgb(222, 222, 222);
     box-shadow: #402063;
     background-color: rgb(232,232,232);
-width: 100%;
+    width: 100%;
 }
 .Itemcarrusel{
     
@@ -119,12 +117,7 @@ width: 100%;
 }
 
 .tipos{
-    width: 90%;
-    height: 50%;
-    margin-left: 5%;
-    margin-right: 0;
-    border: 2px solid #402063;
-    border-radius: 10px;
+    border-top: 0.5px solid #656368;
     padding-top: 25px;
     margin-bottom: 2%;
     margin-top: 3%;
@@ -142,16 +135,34 @@ width: 100%;
     height: 67%;
 
 }
+.cat{
+    font-weight: 600;
+    text-decoration: none;
+    border: 2px solid #402063;
+  color: #402063;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 10px;
+}
 
 .tipos:hover {
     background-color: rgb(254, 254, 254);
     box-shadow: 10px 10px 10px rgb(232,232,232);
 }
 .texto{
-    width: 60%;
+    width: 50%;
     float: left;
  margin-left: 4%;
  margin-right: 4%;
+}
+.imagen{
+    width: 90%;
+    margin-left: 5%;
+}
+.m-botton{
+    margin-bottom: 30px;
 }
 .imagen{
    float: inline-end;
@@ -173,14 +184,9 @@ width: 100%;
     padding: 2px;
     
 }
-.cat{
-    color: white;
-text-decoration: none;
-    margin-right: 0%;
-}
 
 #foto{
-    width: 300px;
+    width: 80%;
     margin-right: 10%;
     border-radius: 10px; 
 }
@@ -290,10 +296,7 @@ h4{
         margin-left: 15%;
         width: 100%;
     }
-    #foto{
-        width: 250px;
-       
-    }
+   
     footer{
         width: 100%;
     }
@@ -431,16 +434,13 @@ h4{
 .texto{
 
     float: inline-end;
-    margin-left: 20%;
-    margin-right: 10%;
-    width: 70%;
+    margin-left: 5%;
+    width: 90%;
     margin-bottom: 50px;
 }
 .imagen{
-    width: 60%;
-    
-  margin-right: 10%;
-   margin-left: 18%;
+    width: 80%;
+   margin-left: 10%;
 }
 h1{
     margin-left: 20%;
@@ -449,5 +449,8 @@ h1{
 }
 p{
     width: 200px;
+}
+.col{
+    max-width: 798px;
 }
 }
